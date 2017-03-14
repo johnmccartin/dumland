@@ -11,6 +11,10 @@
   float: left;
 }
 
+.pull-up {
+  top: 0;
+}
+
 
 .stretch-lr {
   position: absolute;
@@ -44,4 +48,18 @@
 
 .centered {
   margin: 0px auto;
+}
+
+.x {
+  &:before {
+    content: 'X: ';
+  }
+}
+
+.y {
+  top: 40px;
+
+  &:before {
+    content: 'Y: ';
+  }
 }

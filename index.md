@@ -3,7 +3,8 @@ layout: home
 title: Firestarter Jekyll
 ---
 
-## This is Firestarter Jekyll
-A port of the firestarter framework for GitHub pages and other Jekyll servers.
+We are
+# DUM
 
-[Link to Blog](/blog)
+<div class="pull-up pull-right fixed x">X</div>
+<div class="pull-up pull-right fixed y">Y</div>

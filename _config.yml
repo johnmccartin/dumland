@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Firestarter Jekyll
+title: DUM
 locale: en_US
-description: A jekyll port of the firestarter framework
+description: We Are DUM
 logo: 
 search: true
-url: http://www.mccartion.info
+url: http://www.dum.land
 # Jekyll configuration
 
 permalink:   /:categories/:title/

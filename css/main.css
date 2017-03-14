@@ -489,14 +489,19 @@ __   ____ _ _ __(_) __ _| |__ | | ___  ___
   float: left;
 }
 
-/* line 15, ../sass/_positioners.scss */
+/* line 14, ../sass/_positioners.scss */
+.pull-up {
+  top: 0;
+}
+
+/* line 19, ../sass/_positioners.scss */
 .stretch-lr {
   position: absolute;
   left: 0;
   right: 0;
 }
 
-/* line 21, ../sass/_positioners.scss */
+/* line 25, ../sass/_positioners.scss */
 .stretch-all {
   position: absolute !important;
   top: 0 !important;
@@ -505,29 +510,43 @@ __   ____ _ _ __(_) __ _| |__ | | ___  ___
   right: 0 !important;
 }
 
-/* line 29, ../sass/_positioners.scss */
+/* line 33, ../sass/_positioners.scss */
 .fixed {
   position: fixed !important;
 }
 
-/* line 33, ../sass/_positioners.scss */
+/* line 37, ../sass/_positioners.scss */
 .static {
   position: static !important;
 }
 
-/* line 37, ../sass/_positioners.scss */
+/* line 41, ../sass/_positioners.scss */
 .relative {
   position: relative !important;
 }
 
-/* line 41, ../sass/_positioners.scss */
+/* line 45, ../sass/_positioners.scss */
 .absolute {
   position: absolute !important;
 }
 
-/* line 45, ../sass/_positioners.scss */
+/* line 49, ../sass/_positioners.scss */
 .centered {
   margin: 0px auto;
+}
+
+/* line 54, ../sass/_positioners.scss */
+.x:before {
+  content: 'X: ';
+}
+
+/* line 59, ../sass/_positioners.scss */
+.y {
+  top: 40px;
+}
+/* line 62, ../sass/_positioners.scss */
+.y:before {
+  content: 'Y: ';
 }
 
 @media screen and (min-width: 48em) {
@@ -685,4 +704,11 @@ a:hover {
 /* line 212, ../sass/main.scss */
 .brand-title a {
   text-decoration: none;
+}
+
+/* line 218, ../sass/main.scss */
+.splash h1 {
+  font-size: 18em;
+  text-shadow: 100px 100px 40px #fff74c;
+  margin-top: 0.25em;
 }
